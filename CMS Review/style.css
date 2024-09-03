@@ -4,10 +4,13 @@ body {
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    color: white;
+    background-color: rgb(61, 12, 107);
     }
 
 header {
     grid-area: 1 / 1 / 2 / 6;
+    background-color: rgb(91, 58, 123);
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
@@ -15,6 +18,7 @@ header {
 
 nav {
     grid-area: 2 / 1 / 6 / 2;
+    background-color: rgb(80, 21, 136);
     text-align: center;
     border: 1px solid #ccc;
     padding: 20px;
@@ -22,6 +26,7 @@ nav {
 
 main {
     grid-area: 2 / 2 / 6 / 6;
+    background-color: rgb(108, 69, 146);
     border: 1px solid #ccc;
     display: flex;
     padding-top:10px;
@@ -32,6 +37,7 @@ main {
 
 .box {
     border: 1px solid #ccc;
+    background-color: rgb(61, 12, 107);
     text-align: center;
     margin: 10px;
     padding: 20px;
